@@ -2,7 +2,6 @@
 *.dll
 bin/
 obj/
-tools/
 
 # Previsualizaciones y archivos temporales
 *-preview.png
