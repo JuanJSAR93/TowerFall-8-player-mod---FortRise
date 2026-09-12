@@ -1,0 +1,9 @@
+# Salidas compiladas y artefactos locales
+*.dll
+bin/
+obj/
+tools/
+
+# Previsualizaciones y archivos temporales
+*-preview.png
+*.tmp
