@@ -28,7 +28,7 @@ A modern port of **TF-8-Player** for **FortRise**. Enables up to 8-player matche
    ```text
    <TowerFall-Directory>\Mods\TF8Player
    ```
-   *(Typical Steam path: `C:\Program Files (x86)\Steam\steamapps\common\TowerFall - FortRise\Mods\TF8Player`)*
+   *(Typical Steam path: `C:\Program Files (x86)\Steam\steamapps\common\TowerFall\Mods\TF8Player`)*
 3. The installed mod folder must contain:
    * `TF8PlayerFortRise.dll`
    * `meta.json`
