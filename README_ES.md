@@ -28,7 +28,7 @@ Port de **TF-8-Player** para **FortRise**. Permite partidas de hasta 8 jugadores
    ```text
    <Ruta-de-TowerFall>\Mods\TF8Player
    ```
-   *(Ruta habitual en Steam: `C:\Program Files (x86)\Steam\steamapps\common\TowerFall - FortRise\Mods\TF8Player`)*
+   *(Ruta habitual en Steam: `C:\Program Files (x86)\Steam\steamapps\common\TowerFall\Mods\TF8Player`)*
 3. La carpeta instalada debe contener:
    * `TF8PlayerFortRise.dll`
    * `meta.json`
