@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AssemblyName>TF8PlayerFortRise</AssemblyName>
+    <RootNamespace>TF8PlayerFortRise</RootNamespace>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <TF8GameDir Condition="'$(TF8GameDir)' == ''">C:\Program Files (x86)\Steam\steamapps\common\TowerFall - FortRise2</TF8GameDir>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="TowerFall.Patch">
+      <HintPath>$(TF8GameDir)\TowerFall.Patch.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="FNA">
+      <HintPath>$(TF8GameDir)\FNA.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>$(TF8GameDir)\0Harmony.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions">
+      <HintPath>$(TF8GameDir)\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+</Project>
